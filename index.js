@@ -12,10 +12,10 @@ app.use('/', dataRoutes);
 
 const PORT = process.env.PORT || 3000;
 
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// mongoose.connect(process.env.MONGODB_URI, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 
 const db = mongoose.connection;
 
